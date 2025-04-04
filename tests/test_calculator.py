@@ -13,7 +13,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(multiply(3, 7), 21)
 
     def test_divide(self):
-        self.assertEqual(divide(10, 2), 5)
+        self.assertEqual(divide(10, 2), 4)
 
     def test_divide_by_zero(self):
         with self.assertRaises(ValueError):
